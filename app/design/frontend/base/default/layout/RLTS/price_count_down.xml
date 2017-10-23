@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <default>
+        <reference name="head">
+                <action method="addCss"><stylesheet>css/RLTS/countdown.css</stylesheet></action>
+        </reference>
+    </default>
+    <catalog_product_view>
+        <reference name="product.info.addto">
+            <action method="setTemplate" ifconfig="pricecountdown/price_countdown_config/if_enabled">
+                <template>RLTS/countdown/view.phtml</template></action>
+        </reference> 
+        <!-- <reference name="product.info.extrahint">
+            <block type="pricecountdown/countdown_view" name="product.view.timer" template="RLTS/countdown/view.phtml" />
+        </reference>-->
+    </catalog_product_view>      
+</layout>

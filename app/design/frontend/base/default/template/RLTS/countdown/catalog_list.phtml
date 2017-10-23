@@ -1,0 +1,5 @@
+<?php $idproduct= $this->getproductId(); // This id is set on observer file with using magic function like we save in xml
+echo $this->getChildHtml('price_block'.$idproduct); 
+echo $this->getChildHtml('countdown_view'.$idproduct); 
+
+?>

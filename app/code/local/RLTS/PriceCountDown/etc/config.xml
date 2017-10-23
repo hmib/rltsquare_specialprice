@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <RLTS_PriceCountDown>
+            <version>1.0.0</version>
+        </RLTS_PriceCountDown>
+    </modules>
+    <global>
+    <helpers>
+        <pricecountdown>
+            <class>RLTS_PriceCountDown_Helper</class>
+        </pricecountdown>
+    </helpers>
+    <blocks>
+        <pricecountdown>
+            <class>RLTS_PriceCountDown_Block</class>
+        </pricecountdown>
+    </blocks>
+    <models>
+        <pricecountdown>
+            <class>RLTS_PriceCountDown_Model</class>
+        </pricecountdown>
+    </models>
+     <events>
+            <core_block_abstract_to_html_before>
+                <observers>
+                    <pricecountdown_observers>
+                        <class>pricecountdown/observer</class>
+                        <method>priceCounter</method>
+                    </pricecountdown_observers>
+                </observers>
+            </core_block_abstract_to_html_before>
+        </events> 
+</global>
+    <frontend>
+        <layout>
+            <updates>
+                <pricecountdown>
+                    <file>RLTS/price_count_down.xml</file>
+                </pricecountdown>
+            </updates>
+        </layout>
+    </frontend>
+</config>

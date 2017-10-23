@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <rltsquare translate="label" module="pricecountdown">
+            <label>RLTSquare</label>
+            <sort_order>200</sort_order>
+        </rltsquare>
+    </tabs>
+    <sections>
+        <pricecountdown translate="label" module="pricecountdown">
+            <label>Price Count Down</label>
+            <tab>rltsquare</tab>
+            <sort_order>3</sort_order>
+            <show_in_store>1</show_in_store>
+            <show_in_website>1</show_in_website>
+            <show_in_default>1</show_in_default>
+            <groups>
+                <price_countdown_config translate="label" module="pricecountdown">
+                    <label>Price Count Down Setting</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_store>1</show_in_store>
+                    <show_in_website>1</show_in_website>
+                    <fields>
+                        <if_enabled translate="label" >
+                            <label>Enable Price Count Down</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_store>1</show_in_store>
+                            <show_in_website>1</show_in_website>
+                        </if_enabled>
+                        <header_content translate="label">
+                            <label>Header Text</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_store>1</show_in_store>
+                            <show_in_website>1</show_in_website>
+                            <comment>Header text will be showing with counter.</comment>
+                        </header_content>
+                        <show_in_list>
+                            <label>Show counter on catalog list</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_store>1</show_in_store>
+                            <show_in_website>1</show_in_website>
+                            <comment>If- yes counter will be show on product list pages as well.</comment>
+                        </show_in_list>
+                    </fields>
+                </price_countdown_config>
+            </groups>
+        </pricecountdown>
+    </sections>
+</config>

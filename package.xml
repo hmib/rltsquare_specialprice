@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>RLTSquare_specialpricecountdown</name>
+    <version>1.0.1</version>
+    <stability>devel</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Price countdown allows to display timer on sale items, motivating customers to buy now before the deal ends. </summary>
+    <description> Special price countdown timer displays timer on sale items. This extension will show the number of days, hours, and minutes and second to left the deal ends and Increase the urgency of customers to buy quicker with this extension. It displays a countdown timer in product page and catalog page to let customer know and purchase earlier before your discount or deal ends.&#xD;
+&#xD;
+The extension works with special price and special from/ to attribute. So you can inform your customer when the sale will end.The countdown timer is based on Magento timezone settings thus giving a global view, enable the customer around the world to see the same countdown timer.&#xD;
+&#xD;
+Full control to display timer on category view page and have option to show deal/ sale label/heading on product view and category page as well.&#xD;
+</description>
+    <notes>2nd release.</notes>
+    <authors><author><name>Omar Salman</name><user>omarsalman</user><email>omarsalman@gmail.com</email></author><author><name>Rehana Zaheer</name><user>rehanazaheer</user><email>rehana.zaheer789@gmail.com</email></author></authors>
+    <date>2016-04-05</date>
+    <time>08:50:21</time>
+    <contents><target name="magelocal"><dir name="RLTS"><dir name="PriceCountDown"><dir><dir name="Block"><dir name="Countdown"><file name="View.php" hash="19cd581a9872a01b9ff99d51b90ad27c"/></dir></dir><dir name="Helper"><file name="Data.php" hash="cc27774c90a92fb9a067d734cd2aa6b7"/></dir><dir name="Model"><file name="Observer.php" hash="ebe3c4e1e009eb701c72ca798476f8bf"/></dir><dir name="etc"><file name="adminhtml.xml" hash="4de627589b87d82b745d512b3562b663"/><file name="config.xml" hash="4aa896c4bd74ec7045e94c5ca913d036"/><file name="system.xml" hash="244dfa0fb9a1553ff6eadbc4838b4cf0"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="RLTS_PriceCountDown.xml" hash="42e4cb85b79808016b13fc886fc9af2b"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="RLTS"><file name="price_count_down.xml" hash="a03fad0f6f1895c932645d7c3a5abeb5"/></dir></dir><dir name="template"><dir name="RLTS"><file name="blank.phtml" hash="d41d8cd98f00b204e9800998ecf8427e"/><dir name="countdown"><file name="catalog_list.phtml" hash="b67c3100e52b217ad2be3258b5efb722"/><file name="counter.phtml" hash="1d427da8da7c59e7ae04fd9c175a0473"/><file name="view.phtml" hash="dd0c0fe508bfc6d16113fd3dfc92ec4d"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="RLTS"><file name="countdown.css" hash="091353977369db0e5599063297185668"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.1</min><max>5.6.16</max></php></required></dependencies>
+</package>
