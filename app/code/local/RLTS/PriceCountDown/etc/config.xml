@@ -6,22 +6,22 @@
         </RLTS_PriceCountDown>
     </modules>
     <global>
-    <helpers>
-        <pricecountdown>
-            <class>RLTS_PriceCountDown_Helper</class>
-        </pricecountdown>
-    </helpers>
-    <blocks>
-        <pricecountdown>
-            <class>RLTS_PriceCountDown_Block</class>
-        </pricecountdown>
-    </blocks>
-    <models>
-        <pricecountdown>
-            <class>RLTS_PriceCountDown_Model</class>
-        </pricecountdown>
-    </models>
-     <events>
+        <helpers>
+            <pricecountdown>
+                <class>RLTS_PriceCountDown_Helper</class>
+            </pricecountdown>
+        </helpers>
+        <blocks>
+            <pricecountdown>
+                <class>RLTS_PriceCountDown_Block</class>
+            </pricecountdown>
+        </blocks>
+        <models>
+            <pricecountdown>
+                <class>RLTS_PriceCountDown_Model</class>
+            </pricecountdown>
+        </models>
+         <events>
             <core_block_abstract_to_html_before>
                 <observers>
                     <pricecountdown_observers>
@@ -31,7 +31,7 @@
                 </observers>
             </core_block_abstract_to_html_before>
         </events> 
-</global>
+    </global>
     <frontend>
         <layout>
             <updates>

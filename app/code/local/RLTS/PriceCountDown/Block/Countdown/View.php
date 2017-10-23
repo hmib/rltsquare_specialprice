@@ -3,7 +3,6 @@
  class RLTS_PriceCountDown_Block_Countdown_View extends Mage_Core_Block_Template{
      
      public function getProduct(){
-              //  return $this->getProduct()->getEntityId();
         if ($this->hasData('product')) {
             $product = $this->getData('product');
             return $product;

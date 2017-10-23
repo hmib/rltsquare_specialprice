@@ -10,8 +10,5 @@
             <action method="setTemplate" ifconfig="pricecountdown/price_countdown_config/if_enabled">
                 <template>RLTS/countdown/view.phtml</template></action>
         </reference> 
-        <!-- <reference name="product.info.extrahint">
-            <block type="pricecountdown/countdown_view" name="product.view.timer" template="RLTS/countdown/view.phtml" />
-        </reference>-->
     </catalog_product_view>      
 </layout>

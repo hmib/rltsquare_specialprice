@@ -19,9 +19,6 @@
 .catalog-category-view .clockdiv > div{
     font-size: 20px;
     font-weight: normal;
-    /* padding: 5px;
-    border-radius: 3px;
-    background: grey; */
     display: inline-block;
 }
 
@@ -29,9 +26,6 @@
     background:  #363636 none repeat scroll 0 0;
     padding: 0 5px;
     border-radius: 2px;
-    /*padding: 3px;
-    border-radius: 3px;
-    background: black;*/
     display: inline-block;
 }
 
@@ -41,8 +35,6 @@
     font-weight: bold;
     padding-top: 5px;;
 }
-
-
 
 .catalog-product-view .countdown-block{
     margin-bottom: 10px;
@@ -60,9 +52,6 @@
 .catalog-product-view #clockdiv > div{
     font-size: 35px;
     font-weight: normal;
-   /* padding: 5px;
-    border-radius: 3px;
-    background: grey; */
     display: inline-block;
 }
 
@@ -70,9 +59,6 @@
     background:  #363636 none repeat scroll 0 0;
     padding: 0 15px;
     border-radius: 3px;
-    /*padding: 3px;
-    border-radius: 3px;
-    background: black;*/
     display: inline-block;
 }
 
